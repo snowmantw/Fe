@@ -1,0 +1,29 @@
+{
+  "name": "fe.js",
+  "version": "0.0.9",
+  "author": "Greg Weng <gweng@mozilla.com>",
+  "description": "create dummy files and directories in a easy way",
+  "main": "./exports.js",
+  "contributors": [
+    {
+      "name": "Greg Weng",
+      "email": "gweng@mozilla.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snowmantw/Fe.git"
+  },
+  "keywords": [
+    "mock",
+    "testing",
+    "fs",
+    "filesystem"
+  ],
+  "dependencies": {},
+  "analyze": false,
+  "license": "GPLv3",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
