@@ -1,6 +1,6 @@
 {
   "name": "fe.js",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "author": "Greg Weng <gweng@mozilla.com>",
   "description": "create dummy files and directories in a easy way",
   "main": "./exports.js",
