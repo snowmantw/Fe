@@ -1,0 +1,14 @@
+before_script:
+  - cd test
+before_install:
+  - travis_retry npm install
+install:
+  - sudo npm install -g cucumber
+language: node_js
+node_js:
+  - "0.11"
+  - "0.10"
+script:
+  - cucumber.js
+notifications:
+  - snowmantw@gmail.com
