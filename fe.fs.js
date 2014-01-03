@@ -2,6 +2,9 @@
 const CWDPATH = '.';
 var mPath = require('path');
 var Fe = require(__dirname + '/fe.js');
+
+// TODO: error can't show message. If we extend the original Error,
+// other property won't be attached.
 fs = {
 
   /**
