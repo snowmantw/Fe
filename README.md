@@ -39,6 +39,30 @@ var proxyquire = require('proxyquire')
 // mocked one. It would access only the Fe's "filesystem".
 ```
 
+## Installation
+
+`npm install fe.js`
+
+Require `fe.js` to get the package, which contains the mock filesystem
+instance and the `fs` module. To use them:
+
+```javascript
+var fe = require('fe.js'),
+    fs = fe.fs;
+```
+
+Now you can mock files and directories in `fe.instance()`,
+or manipulate it with the mock `fs` module.
+
+Don't forget that you can use `proxyquire` to stub existing modules with
+the mock `fs` module:
+
+```javascript
+var proxyquire = require('proxyquire')
+  , fsStub     = fe.fs
+  , wrench = proxyquire('wrench', { 'fs': fsStub });
+```
+
 ## Motivation
 
 Sometime we just want to test some simple file handling functions,
