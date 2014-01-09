@@ -1,6 +1,6 @@
 # Fe - mock filesystem in the easist way
 
-Create mock files and directories in the easist way:
+Create mock files and directories in the easiest way:
 
 ```javascript
 var fe = require('fe.js'),
